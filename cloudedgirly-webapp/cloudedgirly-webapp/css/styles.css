@@ -56,3 +56,12 @@ footer p {
     font-family: 'Amatic SC', cursive;
     color: #FF4081;
 }
+.item-card:hover {
+  animation: pulse 0.5s;
+  box-shadow: 0 6px 28px #ffb6c1b0, 0 3px 12px #fff68580;
+}
+@keyframes pulse {
+  0% { transform: scale(1);}
+  60% { transform: scale(1.04);}
+  100% { transform: scale(1);}
+}

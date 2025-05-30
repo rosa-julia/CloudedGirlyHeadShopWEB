@@ -1,1 +1,0 @@
-// script.js (adicione funcionalidades JS aqui, se quiser)

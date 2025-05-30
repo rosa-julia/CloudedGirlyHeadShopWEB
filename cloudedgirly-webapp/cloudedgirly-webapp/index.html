@@ -1,49 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clouded Girly</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clouded Girly</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="flyer">
-        <header>
-            <h1>🌼✨ CHEGUEI NA ÁREA! ✨🌼</h1>
-            <h2>Mini Tabacaria Móvel da <span>Clouded Girly</span></h2>
-            <p class="subtitle">Vibes boas • Escambo • Rolês!</p>
-        </header>
-        <section class="mascote">
-            <img src="images/mascote.png" alt="Mascote Clouded Girly">
-            <img src="images/van.png" alt="Van Retrô">
-        </section>
-        <section class="regras">
-            <h3>📌 REGRAS DA TRIP</h3>
-            <ul>
-                <li>+18 apenas</li>
-                <li>Lixo no lixo</li>
-                <li>Respeito sempre!</li>
-            </ul>
-        </section>
-        <section class="info">
-            <div class="pagamento">
-                <h4>💸 Aceitamos</h4>
-                <p>PIX • PayPal<br>e troco no amor</p>
-            </div>
-            <div class="dicas">
-                <h4>💡 Dica das Minas</h4>
-                <ul>
-                    <li>Leve reserva de seda</li>
-                    <li>Use bag organizada</li>
-                    <li>Chama no direct!</li>
-                </ul>
-            </div>
-        </section>
-        <footer>
-            <p>🌺 VEM SENTIR ESSA ENERGIA 🌺</p>
-            <p>@cloudedgirlytabacaria</p>
-        </footer>
-    </div>
-    <script src="js/script.js"></script>
+  <div class="flyer">
+    <header>
+      <h1>🌼✨ CHEGUEI NA ÁREA! ✨🌼</h1>
+      <h2>Mini Tabacaria Móvel da <span>Clouded Girly</span></h2>
+      <p class="subtitle">Vibes boas • Escambo • Rolês!</p>
+    </header>
+  </div>
+
+
+  <script>
+  document.getElementById('toggle-qr').addEventListener('click', function() {
+    const qr = document.getElementById('qr-container');
+    if (qr.style.display === 'none') {
+      qr.style.display = 'block';
+      this.textContent = 'Ocultar QR Instagram';
+    } else {
+      qr.style.display = 'none';
+      this.textContent = 'Mostrar QR Instagram';
+    }
+  });
+ </script>
+</div>
 </body>
 </html>
