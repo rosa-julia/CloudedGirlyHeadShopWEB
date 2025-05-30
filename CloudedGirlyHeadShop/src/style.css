@@ -1,0 +1,22 @@
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #5a5a5a;
+}
+
+.shop-btn {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.shop-btn:hover {
+    background-color: #ff4f3d;
+}

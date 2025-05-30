@@ -3,31 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clouded Girly</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <title>Clouded Girly HeadShop</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="flyer">
-    <header>
-      <h1>🌼✨ CHEGUEI NA ÁREA! ✨🌼</h1>
-      <h2>Mini Tabacaria Móvel da <span>Clouded Girly</span></h2>
-      <p class="subtitle">Vibes boas • Escambo • Rolês!</p>
-    </header>
-  </div>
-
-
-  <script>
-  document.getElementById('toggle-qr').addEventListener('click', function() {
-    const qr = document.getElementById('qr-container');
-    if (qr.style.display === 'none') {
-      qr.style.display = 'block';
-      this.textContent = 'Ocultar QR Instagram';
-    } else {
-      qr.style.display = 'none';
-      this.textContent = 'Mostrar QR Instagram';
-    }
-  });
- </script>
-</div>
+  <nav class="navbar">
+    <button onclick="location.href='index.html'">Home</button>
+    <button onclick="location.href='produtos.html'">Produtos</button>
+    <button onclick="location.href='sobre.html'">Sobre</button>
+    <button onclick="location.href='contato.html'">Contato</button>
+  </nav>
+  <header class="header-70s">
+    <h1>🌼 Clouded Girly HeadShop 🌼</h1>
+    <p class="slogan">Vibes psicodélicas, produtos únicos e muita energia boa!</p>
+  </header>
+  <main>
+    <section class="intro-70s">
+      <h2>Bem-vinda à sua tabacaria retrô favorita!</h2>
+      <p>Explore nossos produtos e entre no clima dos anos 70 com muito estilo, cor e alegria!</p>
+    </section>
+    <section class="featured-products-70s">
+      <h2>Produtos em Destaque</h2>
+      <div class="products-grid">
+        <div class="product-card">
+          <img src="images/image1.png" alt="Produto 1">
+          <h3>Piteira Psicodélica</h3>
+          <p>R$ 15,00</p>
+          <button class="shop-btn">Comprar</button>
+        </div>
+        <div class="product-card">
+          <img src="images/image2.png" alt="Produto 2">
+          <h3>Seda Colorida</h3>
+          <p>R$ 10,00</p>
+          <button class="shop-btn">Comprar</button>
+        </div>
+        <div class="product-card">
+          <img src="images/image3.png" alt="Produto 3">
+          <h3>Isqueiro Flower Power</h3>
+          <p>R$ 8,00</p>
+          <button class="shop-btn">Comprar</button>
+        </div>
+        <div class="product-card">
+          <img src="images/image4.png" alt="Produto 4">
+          <h3>Caixinha Vintage</h3>
+          <p>R$ 25,00</p>
+          <button class="shop-btn">Comprar</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer-70s">
+    <p>&copy; 2025 Clouded Girly HeadShop • Feito com amor e boas vibrações ✌️</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
